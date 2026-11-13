@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Oddillion is a daily sports-market intuition game. Read the moment, then guess what the market believed."
+    />
+    <meta name="theme-color" content="#07110f" />
+    <title>Oddillion — Read the moment. Call the odds.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="#" aria-label="Oddillion home">
+        <span class="brand-mark">O</span>
+        <span>ODDILLION</span>
+      </a>
+      <div class="header-meta">
+        <span class="live-dot" aria-hidden="true"></span>
+        <span>DAILY DROP 001</span>
+        <button class="text-button" id="restartButton" type="button">RESET</button>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <span>7 moments. 700 points. One market mind.</span>
+      <span>Prototype scenarios use seeded demonstration data.</span>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
